@@ -63,7 +63,8 @@ nav ul {
     align-items: center;
     justify-content: center;
     flex-shrink: 0;
-    max-width: 600px;
+    flex-grow: 10;
+    max-width: 600px; 
     min-width: 400px;
 }
 
@@ -133,12 +134,49 @@ nav ul {
 .s3-container p {
     font-size: 36px;
     font-style: italic;
+    font-weight: 300;
     color: #1f2937;
 }
 
 .s3-container h3 {
     text-align: end;
     font-size: 24px;
+}
+
+.s4-main {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 80px 100px;
+}
+
+.s4-container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    flex-wrap: wrap;
+    background-color: #3882f6;
+    border-radius: 10px;
+    padding: 32px 64px;
+    width: 100vh;
+    color: #fff;
+}
+
+.s4-container .sign-up {
+    background-color: #3882f6;
+    border: #fff solid 2px;
+    padding: 5px 20px;
+    border-radius: 5px;
+    color: #fff;
+}
+
+footer {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 20px 0px;
+    background-color: #1f2937;
+    color: #fff;
 }
 
 
